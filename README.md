@@ -1,27 +1,27 @@
-# 🏠 Dream Home Website
+# 🏗 construction_landing_page
 
-A stylish and modern single-page website for a construction and real estate business, built using **HTML** and **CSS**. The site features responsive layouts, animated sections, and organized services to showcase architecture, construction, and real estate offerings.
+A stylish and modern single-page landing website for a construction and real estate business. Built using **HTML** and **CSS**, this responsive page showcases services, project details, and company highlights.
 
 ---
 
 ## 📸 Preview
 
 ![Website Preview](./Images/preview.jpg)  
-> Replace with a real screenshot or use GitHub Pages for live view.
+> Replace with an actual screenshot or deploy the site and use a live URL.
 
 ---
 
 ## 🚀 Live Demo
 
-👉 [Click here to view](https://your-username.github.io/dream-home)  
-> Replace `your-username` with your GitHub username after deploying.
+👉 [Click here to view](https://your-username.github.io/construction_landing_page)  
+> Replace `your-username` with your GitHub username after deployment.
 
 ---
 
 ## 🧰 Built With
 
 - HTML5
-- CSS3 (Flexbox, transitions, custom properties)
+- CSS3 (Flexbox, Transitions, Variables)
 - Google Fonts
 
 ---
@@ -29,11 +29,10 @@ A stylish and modern single-page website for a construction and real estate busi
 ## 📁 Folder Structure
 
 ```
-dream-home/
-│
-├── index.html        # Main HTML file
-├── style.css         # Stylesheet for layout and design
-└── Images/           # Folder for background and content images
+construction_landing_page/
+├── index.html        # Main HTML structure
+├── style.css         # All styling rules
+└── Images/           # Backgrounds, cards, and profile image
 ```
 
 ---
@@ -41,68 +40,70 @@ dream-home/
 ## 🎯 Features
 
 - ✅ Fixed navigation bar
-- ✅ Hero section with overlay and call-to-action
-- ✅ Responsive card-based service section
-- ✅ "Why Us?" info layout with number icons
-- ✅ Detailed project breakdowns (architecture, construction, real estate)
-- ✅ Stylish owner image and animated hover effects
-- ✅ Contact form section
-- ✅ Clean footer with navigation links
+- ✅ Hero section with a call-to-action
+- ✅ Service cards with hover effects
+- ✅ "Why Us?" section with numbered highlights
+- ✅ Three detailed project categories:
+  - Architecture Design
+  - Construction Services
+  - Real Estate Locations
+- ✅ Contact form (UI only)
+- ✅ Footer with navigation links
 
 ---
 
-## 📌 How to Run Locally
+## 🧪 How to Run Locally
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/dream-home.git
-   cd dream-home
+   git clone https://github.com/your-username/construction_landing_page.git
+   cd construction_landing_page
    ```
 
-2. **Open in your browser**
+2. **Open `index.html` in your browser**
    ```bash
-   start index.html      # For Windows
-   open index.html       # For macOS
-   xdg-open index.html   # For Linux
+   start index.html      # Windows
+   open index.html       # macOS
+   xdg-open index.html   # Linux
    ```
 
 ---
 
-## 🌐 How to Deploy on GitHub Pages
+## 🌐 Deploy on GitHub Pages
 
-1. **Initialize Git and push to GitHub**
+1. **Push code to GitHub**
    ```bash
    git init
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/your-username/dream-home.git
+   git remote add origin https://github.com/your-username/construction_landing_page.git
    git push -u origin main
    ```
 
 2. **Enable GitHub Pages**
-   - Go to the repo → **Settings** → **Pages**
-   - Under **Source**, choose `main` branch → `/root`
-   - Save and view your live site at:
+   - Go to **Settings** → **Pages**
+   - Choose `main` branch and `/root` folder
+   - Your site will be live at:
      ```
-     https://your-username.github.io/dream-home
+     https://your-username.github.io/construction_landing_page
      ```
 
 ---
 
-## 📌 Image Credits
+## 🖼 Image Usage
 
-Ensure you have permission to use images (currently sourced from `/Images/one.jpg`, `/two.jpg`, etc.).
+Images are referenced from the `/Images` folder (e.g., `Images/one.jpg`, `Images/scott-blake-x-ghf9LjrVg-unsplash.jpg`). Replace them with your own royalty-free assets if needed.
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
 **Pallerla Sohan**  
-> Feel free to add your GitHub or portfolio links here.
+> Add GitHub, portfolio, or contact links here.
 
 ---
 
 ## 📄 License
 
-This project is open-source and free to use for learning or customization.
+This project is open-source and free to use for educational or personal purposes.
